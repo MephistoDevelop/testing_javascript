@@ -1,14 +1,3 @@
-comands to star:
-
-npm init -y
-
-npm i -save-dev jest
-
-npm i -D @babel/preset-env
-
-jest --init
-
-
 # Testing with Javascript
 
 > Project taked from Microverse Curriculum from [The Odin Page project Site](https://www.theodinproject.com/courses/javascript/lessons/testing-practice).
