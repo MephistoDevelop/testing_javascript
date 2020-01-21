@@ -1,0 +1,16 @@
+{
+  "name": "javascript_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "MephistoDevelop <inesherald@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.3",
+    "jest": "^24.9.0"
+  }
+}
