@@ -1,10 +1,6 @@
-function caesarCypher(text = 'Hello world', key = 0) {
-  let charArray = text.split('').map(c => c.charCodeAt());
-  return decrypt(charArray, key);
-}
 
 function decrypt(charArray, key) {
-  let array = [];
+  const array = [];
   charArray.forEach((c) => {
     if (c === 32) array.push(32)
     if (c >= 33 && c <= 47) array.push(c)
@@ -26,5 +22,11 @@ function decrypt(charArray, key) {
   });
   return f.join('');
 }
+
+function caesarCypher(text = 'Hello world', key = 0) {
+  const charArray = text.split('').map(c => c.charCodeAt());
+  return decrypt(charArray, key);
+}
+
 
 module.exports = caesarCypher;
