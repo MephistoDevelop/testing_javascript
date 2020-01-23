@@ -7,13 +7,13 @@ function decrypt(charArray, key) {
       let enc = c + key;
       if (enc > 90) enc -= 26;
       array.push(enc);
-      return enc;
+      enc;
     }
     if (c >= 97 && c <= 122) {
       let enc = c + key;
       if (enc > 122) enc -= 26;
       array.push(enc);
-      return enc;
+      enc;
     }
   });
   const f = array.map((e) => {
