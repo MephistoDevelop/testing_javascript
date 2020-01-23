@@ -37,3 +37,8 @@ test('Caesar Cipher with 3 key value', () => {
 test('Caesar Cipher with 5 key value', () => {
   expect(caesarCipher('Oh yes', 5)).toBe('Tm djx');
 });
+
+
+test('Caesar Cipher with 1 key value with signs', () => {
+  expect(caesarCipher('!Oh yes.', 5)).toBe('!Tm djx.');
+});
