@@ -28,10 +28,13 @@ after you will need to run this commands on the containing folder terminal
 `jest --init`
 
 
+
 ### Deployment
 
 
 after you will need to enter to [Stickler Page](https://stickler-ci.com/) and activate your repository.
+
+run `npm test` to start the tests on the terminal
 
 ## Authors
 
