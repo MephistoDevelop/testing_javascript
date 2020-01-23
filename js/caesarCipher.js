@@ -15,10 +15,9 @@ function decrypt(charArray, key) {
       array.push(enc);
       return enc;
     }
+    return character;
   });
-  const f = array.map((e) => {
-    return String.fromCharCode(e);
-  });
+  const f = array.map((e) => String.fromCharCode(e));
   return f.join('');
 }
 
