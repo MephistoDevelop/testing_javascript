@@ -1,14 +1,3 @@
-comands to star:
-
-npm init -y
-
-npm i -save-dev jest
-
-npm i -D @babel/preset-env
-
-jest --init
-
-
 # Testing with Javascript
 
 > Project taked from Microverse Curriculum from [The Odin Page project Site](https://www.theodinproject.com/courses/javascript/lessons/testing-practice).
@@ -39,10 +28,13 @@ after you will need to run this commands on the containing folder terminal
 `jest --init`
 
 
+
 ### Deployment
 
 
 after you will need to enter to [Stickler Page](https://stickler-ci.com/) and activate your repository.
+
+run `npm test` to start the tests on the terminal
 
 ## Authors
 
